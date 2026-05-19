@@ -5,8 +5,6 @@ import os
 cwd = os.getcwd()
 print(cwd)
 
-page_wd = os.path.join(cwd, 'pages')
-
 p1= os.path.join(cwd, "main_page.py")
 main_page = st.Page(p1, title="Main Page", icon="🎈")
 
@@ -26,5 +24,4 @@ st.write(pd.DataFrame({
     'second column': [10, 20, 30, 40]
 }))
 
-# Run the selected page
-#pg.run()
+pg.run()
