@@ -10,10 +10,10 @@ page_wd = os.path.join(cwd, 'pages')
 page_name = os.path.join(cwd, "main_page.py")
 main_page = st.Page(page_name, title="Main Page", icon="🎈")
 
-page_name = os.path.join(cwd, "main_page.py")
+page_name = os.path.join(cwd, "page_2.py")
 page_2 = st.Page(page_name, title="Page 2", icon="❄️")
 
-page_name = os.path.join(cwd, "main_page.py")
+page_name = os.path.join(cwd, "page_3.py")
 page_3 = st.Page(page_name, title="Page 3", icon="🎉")
 
 pg = st.navigation([main_page, page_2, page_3])
