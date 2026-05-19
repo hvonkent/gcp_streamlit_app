@@ -18,6 +18,7 @@ page_3 = st.Page(page_name, title="Page 3", icon="🎉")
 
 pg = st.navigation([main_page, page_2, page_3])
 
+
 st.write("table:")
 st.write(pd.DataFrame({
     'first column': [1, 2, 3, 4],
