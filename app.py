@@ -1,5 +1,9 @@
 import streamlit as st
 import pandas as pd
+import os
+
+cwd = os.getcwd()
+print(cwd)
 
 """
 # Define the pages
@@ -19,4 +23,4 @@ st.write(pd.DataFrame({
 }))
 
 # Run the selected page
-pg.run()
+#pg.run()
