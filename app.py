@@ -7,14 +7,14 @@ print(cwd)
 
 page_wd = os.path.join(cwd, 'pages')
 
-page_name = os.path.join(cwd, "main_page.py")
-main_page = st.Page(page_name, title="Main Page", icon="🎈")
+p1= os.path.join(cwd, "main_page.py")
+main_page = st.Page(p1, title="Main Page", icon="🎈")
 
-page_name = os.path.join(cwd, "page_2.py")
-page_2 = st.Page(page_name, title="Page 2", icon="❄️")
+p2 = os.path.join(cwd, "page_2.py")
+page_2 = st.Page(p2, title="Page 2", icon="❄️")
 
-page_name = os.path.join(cwd, "page_3.py")
-page_3 = st.Page(page_name, title="Page 3", icon="🎉")
+p3 = os.path.join(cwd, "page_3.py")
+page_3 = st.Page(p3, title="Page 3", icon="🎉")
 
 pg = st.navigation([main_page, page_2, page_3])
 
